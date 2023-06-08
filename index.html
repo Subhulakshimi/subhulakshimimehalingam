@@ -15,31 +15,189 @@
   <link rel="stylesheet" href="cpages.css">
 </head>
 <body>
-  <div class="sidenav">
-    <nav class="nav flex-column">
-      <a class="nav-link active" aria-current="page" href="#">Foundations</a>
-      <a class="nav-link" href="#">Components</a>
-      <a class="nav-link" href="#">Patterns</a>
+  <div class="d-flex">
+    <nav id="sidebar" class="">
+      <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="toggle-btn">
+          <span class="sr-only">Toggle Menu</span>
+          <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </div>
+      <div class="p-4 pt-6">
+        <div class="logo">
+          <a href="index.html"><img alt="logo" src="./img/logo.png" width="60%"></a>
+        </div>
+
+        <ul class="list-unstyled components">
+          <li>
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+            <ul class="collapse list-unstyled" id="homeSubmenu">
+              <li>
+                <a href="foundation/type.html">Typography</a>
+              </li>
+              <li>
+                <a href="foundation/color.html">Color</a>
+              </li>
+              <li>
+                <a href="foundation/logo.html">Logo</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+            <ul class="collapse list-unstyled" id="ComponentsSubmenu">
+              <li>
+                <a href="components/buttons.html">Buttons</a>
+              </li>
+              <li>
+                <a href="components/navbar.html">Navbar</a>
+              </li>
+              <li>
+                <a href="components/cards.html">Cards</a>
+              </li>
+            
+             
+            </ul>
+          </li>
+          <li>
+            <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Patterns</a>
+            <ul class="list-unstyled collapse show" id="PatternsSubmenu" style="">
+              <li>
+                <a href="patterns/homepage_pattern.html">Homepage</a>
+              </li>
+              <li>
+                <a href="patterns/aboutpage_pattern.html">Design Page</a>
+              </li>
+             
+            </ul>
+          </li>
+        </ul>
+      </div>
     </nav>
-  </div>
 
-  <div class="main">
-    <h1>Subhulakshimi Mehalingam</h1>
-    <h4>Portfolio Design System</h4>
-    <p class="separator"></p>
-    <h3>About</h3>
-    <h5>This website is a documentation of the mini-design system I built for my portfolio website.
-      The design system itself was built to be simple, minimal, and playful, relating to my mind map.</h5>
-    <p class="separator"></p>
-    <h3>Categories</h3>
-    <h4>Foundations</h4>
-    <h5>This section outlines the foundations of the design system: color, typography, and logo.</h5>
-    <h4>Components</h4>
-    <h5>This section outlines the various components involved in the design system: buttons, navbars, and cards.</h5>
-    <h4>Patterns</h4>
-    <h5>This section outlines the page layouts of pages from my portfolio: homepage, and design, in three screen sizes.</h5>
+    <!-- Page Content  -->
+    <div class="container">
+      <div class="row p-5 pt-6">
+        <div id="content">
+          <div class="jumbotron" style="background-color:#f3f3f3;">
+            <h1 class="text-black">Subhulakshimi Mehalingam</h1>
+            <p class="subtitle text-black">Mini Design System</p>
+          </div>
+          <section>
+            <h2>About</h2>
+            <p>
+               This website is a documentation of the mini-design system I built for my portfolio website.
+      The design system itself was built to be simple, minimal, and playful, relating to my mind map.
+            </p>
+          </section>
+          <section>
+            <h2>Categories</h2>
+            <h3>Foundation</h3>
+            <p>This section outlines the foundations of the design system: color, typography, and logo.</p>
+            <ul>
+              <li><a href="./foundation/type.html">Typography</a></li>
+              <li><a href="./foundation/color.html">Color</a></li>
+              <li><a href="./foundation/logo.html">Logo</a></li>
+            </ul>
+            <h3>Components</h3>
+            <p>This section outlines the various components involved in the design system: buttons, navbars, and cards.</p>
+            <ul>
+              <li>
+                <a href="components/buttons.html">Buttons</a>
+              </li>
+              <li>
+                <a href="components/navbar.html">Navbar</a>
+              </li>
+              <li>
+                <a href="components/cards.html">Cards</a>
+              </li>
+              
+           
+            </ul>
+            <h3>Patterns</h3>
+            <p>This section outlines the page layouts of pages from my portfolio: homepage, and design, in three screen sizes.</p>
+            <ul>
+              <li>
+                <a href="patterns/homepage_pattern.html">Homepage</a>
+              </li>
+              <li>
+                <a href="patterns/designpage_pattern.html">Design Page</a>
+              </li>
+            
+            </ul>
+          </section>
+        </div> <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
   </div>
+  
+  <nav id="sidebar" class="">
+      <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="toggle-btn">
+          <span class="sr-only">Toggle Menu</span>
+          <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </div>
+      <div class="p-4 pt-6">
+        <div class="logo">
+          <a href="index.html"><img alt="Prachi Newadkar logo" src="./img/Color.png" width="60%"></a>
+        </div>
 
-  <!-- Add the closing </body> and </html> tags -->
+        <ul class="list-unstyled components">
+          <li>
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+            <ul class="collapse list-unstyled" id="homeSubmenu">
+              <li>
+                <a href="foundation/type.html">Typography</a>
+              </li>
+              <li>
+                <a href="foundation/color.html">Color</a>
+              </li>
+              <li>
+                <a href="foundation/logo.html">Logo</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+            <ul class="collapse list-unstyled" id="ComponentsSubmenu">
+              <li>
+                <a href="components/buttons.html">Buttons</a>
+              </li>
+              <li>
+                <a href="components/navbar.html">Navbar</a>
+              </li>
+              <li>
+                <a href="components/cards.html">Cards</a>
+              </li>
+            
+             
+            </ul>
+          </li>
+          <li>
+            <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Patterns</a>
+            <ul class="list-unstyled collapse show" id="PatternsSubmenu" style="">
+              <li>
+                <a href="patterns/homepage_pattern.html">Home Page</a>
+              </li>
+              <li>
+                <a href="patterns/aboutpage_pattern.html">About Page</a>
+              </li>
+             
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+  
 </body>
 </html>
